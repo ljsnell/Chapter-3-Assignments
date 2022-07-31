@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class BookstoreCredit {
     public static void main(String[] args) {
-        String studentName = "Bill";
-        double studentGPA = 3.2;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Enter Student Name:");
+        String studentName = keyboard.nextLine();
+        System.out.println("Enter Student GPA:");
+        double studentGPA = keyboard.nextDouble();
 
         calculateBookStoreCredit(studentName, studentGPA);
     }
