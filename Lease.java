@@ -11,7 +11,7 @@ public class Lease {
         monthsOfLease = 12;
     }
 
-    private void addPetFee() {
+    public void addPetFee() {
         monthlyRentAmount += 10;
         explainPetPolicy();
     }
