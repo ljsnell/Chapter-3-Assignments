@@ -7,7 +7,7 @@ public class JobPricing {
 	}
 	
 	public static int calculateTotalCost(int costOfMaterials, int numberOfHoursWorked, int numberOfHoursDriven) {
-		
+		return 0;		
 	}
 
 }
